@@ -1,6 +1,6 @@
-luna is a powerful agent framework seamlessly integrated with the Dojo stack, empowering developers to bring their games and applications to life with intelligent, autonomous agents. Whether you need NPCs that feel truly alive, dynamic storytellers that craft compelling narratives, or natural language interfaces that let players interact with your world in intuitive ways - luna makes it possible.
+Luna is a powerful agent framework seamlessly integrated with the Dojo stack, empowering developers to bring their games and applications to life with intelligent, autonomous agents. Whether you need NPCs that feel truly alive, dynamic storytellers that craft compelling narratives, or natural language interfaces that let players interact with your world in intuitive ways - Luna makes it possible.
 
-luna enables your agents to:
+Luna enables your agents to:
 
 - Act as believable NPCs with distinct personalities and behaviors
 - Generate dynamic storylines and quests that adapt to player actions
@@ -12,8 +12,8 @@ luna enables your agents to:
 
 The project is organized into several key components:
 
-- `luna-core`: Core functionality for the conversational agent
-- `luna-starknet`: Starknet integration components
+- `Luna-core`: Core functionality for the conversational agent
+- `Luna-starknet`: Starknet integration components
 - `examples`: Example implementations and usage patterns
 
 **Getting Started**
