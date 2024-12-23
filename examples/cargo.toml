@@ -1,11 +1,11 @@
 [package]
-name = "asuka-examples"
+name = "luna-examples"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-asuka-core = { path = "../asuka-core" }
-asuka-starknet = { path = "../asuka-starknet" }
+luna-core = { path = "../luna-core" }
+luna-starknet = { path = "../luna-starknet" }
 tokio = { version = "1.0", features = ["full"] }
 clap = { version = "4.0", features = ["derive", "env"] }
 dotenv = "0.15"
