@@ -1,5 +1,5 @@
 [workspace]
-members = ["lexi-core", "lexi-starknet", "examples"]
+members = ["luna-core", "luna-starknet", "examples"]
 resolver = "2"
 
 [workspace.dependencies]
