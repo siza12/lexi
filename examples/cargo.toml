@@ -1,11 +1,11 @@
 [package]
-name = "luna-examples"
+name = "lexi-examples"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-luna-core = { path = "../luna-core" }
-luna-starknet = { path = "../luna-starknet" }
+lexi-core = { path = "../lexi-core" }
+lexi-starknet = { path = "../lexi-starknet" }
 tokio = { version = "1.0", features = ["full"] }
 clap = { version = "4.0", features = ["derive", "env"] }
 dotenv = "0.15"
