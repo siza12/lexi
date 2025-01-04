@@ -1,13 +1,13 @@
-use luna_core::attention::{Attention, AttentionConfig};
-use luna_core::knowledge::Document;
+use lexi_core::attention::{Attention, AttentionConfig};
+use lexi_core::knowledge::Document;
 use clap::{command, Parser};
 use rig::providers::{self, openai};
 
-use luna_core::character;
-use luna_core::init_logging;
-use luna_core::knowledge::KnowledgeBase;
-use luna_core::loaders::github::GitLoader;
-use luna_core::{agent::Agent, clients::discord::DiscordClient};
+use lexi_core::character;
+use lexi_core::init_logging;
+use lexi_core::knowledge::KnowledgeBase;
+use lexi_core::loaders::github::GitLoader;
+use lexi_core::{agent::Agent, clients::discord::DiscordClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
